@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-.container-fluid{
+.main{
 	position: absolute;
 	background-image: url('../IMG/fundo_site.png');
 	width: 100%;
@@ -11,7 +11,88 @@
 	border: 3px solid black;
 	
 }
+.container-fluid{
+	position: relative;
+}
+.rounded {
+	position: relative;
+	margin-top: 150px;
+}
 
-.form-group{
-	
+#login{
+	width: 250px;
+}
+
+#musica{
+
+	width: 20%;
+	height: 20%;
+}
+
+#musica_img{
+	margin-top: 5%;
+	background-color: rgba(255,255,255,0.5);
+	padding: 25px;
+	border-radius: 12px;
+	width: 50%;
+	height: 50%;
+}
+
+#retorna{
+	margin-top: 5%;
+	width: 50%;
+	height: 50%;
+}
+#retorna_img{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 12px;
+	padding: 15px;
+	width: 30%;
+	height: 3s0%;
+	border-radius: 100px;
+
+}
+#avanca{
+	margin-top: 5%;
+	width: 50%;
+	height: 50%;
+}
+#avanca_img{
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 12px;
+	padding: 15px;
+	width: 30%;
+	height: 30%;
+	border-radius: 100px;
+
+}
+
+#play{
+	margin-top: 3%;
+	width: 40%;
+	height: 40%;
+}
+#play_img{
+	background-color: rgba(255,255,255,0.5);
+	padding: 5px;
+	width: 50%;
+	height: 50%;
+	border-radius: 100px;
+
+}
+
+#reprodutor img{
+	background-color: rgba(255,255,255,0.5);
+	padding: 5px;
+	width: 10%;
+	height: 10%;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+#reprodutor{
+	margin-top: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
