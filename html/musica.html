@@ -6,6 +6,17 @@
 
 	<title></title>
 </head>
+
+<!--Java Script  -->
+<script type="text/javascript">
+
+	indice 0 = ../IMG/iconfinder_media-pause_216309.png
+ 	indice 1 = img/iconfinder_icon-play_211876.PNG
+	function TrocaImg(){
+		document.getElementById("play").src=array[indice];
+	}
+</script>
+
 <body>
 	<section class="main">
 	<div class="container-fluid"  align="center" id="home" >
@@ -25,18 +36,21 @@
 	</div>
 	<!--Fim Div Img musica -->
 	<!-- Inicio Reprodutor -->
-	  <div class="row" id="reprodutor" align="center">
+	  <div class="container-fluid" id="reprodutor" align="center">
     		<img src="../IMG/iconfinder_next_music_player_play_media_4593178.PNG" alt="..." class="img-fluid "  align="right" >
 
-      		<img src="../IMG/iconfinder_icon-play_211876.PNG" alt="..." class="img-fluid" align="center" >
+      		<img src="../IMG/iconfinder_icon-play_211876.PNG" alt="..." class="img-fluid" id="play" align="center" onclick="TrocaImg()" >
 
     		<img src="../IMG/iconfinder_next_music_player_play_media_4593176.PNG" alt="..." class="img-fluid" align="left" >
 	</div>
 	<!-- Fim Reprodutor -->
 
-	<div class="row" id="aleatorio" align=" center">
+	<div class="container-fluid" id="aleatorio" align=" center">
+		<img src="../IMG/iconfinder_music_add_103636.png" alt="..." class="img-fluid "  align="left">
 		
-
+		<img src="../IMG/random.png" alt="..." class="img-fluid " align="center" >
+	
+		<img src="../IMG/iconfinder_music_103634xx.png" alt="..." class="img-fluid " align="right" >
 	</div>
 	</section>
 </body>
